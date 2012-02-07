@@ -10,3 +10,5 @@ In the future I will give you a split up version, with seperate CSS and JavaScri
 I have a [Demo](http://jsfiddle.net/rlemon/EVWxr/1/) setup @ jsFiddle.net for you to play with.
 
 Please report any bugs or features you would like added.
+
+*this project is a rewrite of rewrite of https://github.com/Srirangan/notifer.js*
