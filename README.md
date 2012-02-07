@@ -7,4 +7,6 @@ Look at the [config object](https://github.com/rlemon/Notifier.js/blob/master/No
 
 In the future I will give you a split up version, with seperate CSS and JavaScript files as well as the source Images.
 
+I have a [Demo](http://jsfiddle.net/rlemon/EVWxr/1/) setup @ jsFiddle.net for you to play with.
+
 Please report any bugs or features you would like added.
