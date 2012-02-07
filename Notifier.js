@@ -8,7 +8,9 @@ var Notifier = (function() {
         if (element.style.opacity && element.style.opacity > 0.05) {
             element.style.opacity = element.style.opacity - 0.05;
         } else if (element.style.opacity && element.style.opacity <= 0.1) {
-            element.parentNode.removeChild(element);
+            if( element.parentNode ) {
+                element.parentNode.removeChild(element);
+            }
         } else {
             element.style.opacity = 0.9;
         }
