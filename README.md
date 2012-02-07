@@ -3,7 +3,7 @@
 
 Currently I am only reasing the single file version. Images and CSS are contained within the JavaScript code. 
 
-Look at the [config object](https://github.com/rlemon/Notifier.js/blob/master/Notifier.js#L31), as it is extendable with `Notifier.config( object );`
+Look at the [config object](https://github.com/rlemon/Notifier.js/blob/master/Notifier.js#L33), as it is extendable with `Notifier.config( object );`
 
 In the future I will give you a split up version, with seperate CSS and JavaScript files as well as the source Images.
 
