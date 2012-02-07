@@ -11,4 +11,4 @@ I have a [Demo](http://jsfiddle.net/rlemon/EVWxr/1/) setup @ jsFiddle.net for yo
 
 Please report any bugs or features you would like added.
 
-*this project is a rewrite of rewrite of https://github.com/Srirangan/notifer.js*
+*this project is a rewrite of https://github.com/Srirangan/notifer.js*
