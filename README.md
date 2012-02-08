@@ -3,7 +3,7 @@
 
 Currently I am only reasing the single file version. Images and CSS are contained within the JavaScript code. 
 
-<s>Look at the config object, as it is extendable with Notifier.config( object );</s>
+<strike>Look at the config object, as it is extendable with Notifier.config( object );</strike>
 
 *configuration disabled until further release*
 
