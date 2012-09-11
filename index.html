@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Notifier.js by rlemon</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Notifier.js</h1>
+        <p class="header">OSD/GNOME non-blocking notifications.</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/rlemon/Notifier.js/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/rlemon/Notifier.js/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/rlemon/Notifier.js">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/rlemon">rlemon</a></p>
+
+
+      </header>
+      <section>
+        <h3>Bringing you the power of NotifyOSD to your webpages!</h3>
+
+<p>This easy to deploy script provides basic functionality of OSD/GNOME type non-blocking notifications on your webpages.<br>
+There are four basic message types; Success, Warning, Error, and Info. As well you can create custom messages with ease.</p>
+
+<p>Here is your basic usage:  </p>
+
+<pre><code>Notifier.success(text, title); // text and title are both optional.
+Notifier.warning(text, title);
+Notifier.error(text, title);
+Notifier.info(text, title);
+Notifier.notify(text, title, imageUrl); // For best display, use images no larger than 48*48
+</code></pre>
+
+<p><em>If you click on any of the notifications while they are open you dismiss them.</em></p>
+
+<h3>Styles / Templates</h3>
+
+<p>There are no templates or external files for Notifier.js<br>
+The entire script is self contained. Any of the styles can be easily modified in the config if you know some basic CSS and JavaScript.  </p>
+
+<p>Config:  </p>
+
+<pre><code>   var config = { /* How long the notification stays visible */
+        default_timeout: 5000,
+        /* container for the notifications */
+        container: document.createElement('div'),
+        /* container styles for notifications */
+        container_styles: {
+            position: "fixed",
+            zIndex: 99999,
+            right: "12px",
+            top: "12px"
+        },
+        /* individual notification box styles */
+        box_styles: {
+            cursor: "pointer",
+            padding: "12px 18px",
+            margin: "0 0 6px 0",
+            backgroundColor: "#000",
+            opacity: 0.8,
+            color: "#fff",
+            font: "normal 13px 'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif",
+            borderRadius: "3px",
+            boxShadow: "#999 0 0 12px",
+            width: "300px"
+        },
+        /* individual notification box hover styles */
+        box_styles_hover: {
+            opacity: 1,
+            boxShadow: "#000 0 0 12px"
+        },
+        /* notification title text styles */
+        title_styles: {
+            fontWeight: "700"
+        },
+        /* notification body text styles */
+        text_styles: {
+            display: "inline-block",
+            verticalAlign: "middle",
+            width: "240px",
+            padding: "0 12px"
+        },
+        /* notification icon styles */
+        icon_styles: {
+            display: "inline-block",
+            verticalAlign: "middle",
+            height: "36px",
+            width: "36px"
+        }
+    };
+</code></pre>
+
+<h3>Demos</h3>
+
+<h3>Authors and Contributors</h3>
+
+<p>This is an entire rewrite of another project (jQuery plugin) from <a href="https://github.com/Srirangan" class="user-mention">@Srirangan</a>. All code is my own (<a href="https://github.com/rlemon" class="user-mention">@rlemon</a>), only inspiration came from that project.</p>
+
+<h3>Support or Contact</h3>
+
+<p>Having trouble with Notifier.js? Start an Issue on github or drop me a line @ <a href="mailto:rob.lemon@gmail.com">rob.lemon@gmail.com</a></p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		          <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-34744835-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
