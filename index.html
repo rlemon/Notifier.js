@@ -104,7 +104,17 @@ The entire script is self contained. Any of the styles can be easily modified in
 </code></pre>
 
 <h3>Demos</h3>
-
+<p><button onclick="Notifier.info('There are some other great scripts created and maintained by rlemon.', 'More Resources');">Info #1</button> |
+ <button onclick="Notifier.error('There seems to be an issue with your brain.', 'Stack Overflow');">Error #1</button> |
+ <button onclick="Notifier.success('Successfully display messages without titles');">Success #1</button> |
+ <button onclick="Notifier.warning('You can display multiple messages at once', 'Warning #1'); Notifier.warning('Here is your second message', 'Warning #2');">Multiple Warnings</button> |
+ <button onclick="Notifier.notify('Unicorns make everything better. You know it, I know it. Now let us share it with the world!','Better world with....','http://andbot-icon.s3.amazonaws.com/2246529/0');">Unicorns</button> |
+ <button onclick="Notifier.info('Every day Americans eat 90 acres worth of pizza.', 'Random Fact');">Info #2</button> |
+ <button onclick="Notifier.success('Guess what bro?! You win! Rejoice! Dance! You got it covered!', 'You Win!');">Success #2</button> | 
+ <button onclick="Notifier.error('Uncaught Exception: foo is undefined', 'Error!');">Error #2</button> | 
+ <button onclick="Notifier.success('', 'There is no message here!');">Success #2</button> | 
+ <button onclick="Notifier.notify('There is also the Trollability of this awesome script', 'You mad bro?','http://a2.twimg.com/profile_images/1752722263/troll_face_normal.jpg');">Trolololol</button>
+</p>
 <h3>Authors and Contributors</h3>
 
 <p>This is an entire rewrite of another project (jQuery plugin) from <a href="https://github.com/Srirangan" class="user-mention">@Srirangan</a>. All code is my own (<a href="https://github.com/rlemon" class="user-mention">@rlemon</a>), only inspiration came from that project.</p>
