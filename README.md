@@ -3,14 +3,14 @@
 
 Currently I am only reasing the single file version. Images and CSS are contained within the JavaScript code. 
 
-<strike>Look at the config object, as it is extendable with Notifier.config( object );</strike>
+In the future I will give you a split up version, with seperate CSS and JavaScript files as well as the source Images, However if you are intuitive enough you should be able to split this all out.
 
-*configuration disabled until further release*
-
-In the future I will give you a split up version, with seperate CSS and JavaScript files as well as the source Images.
-
-I have a [Demo](http://jsfiddle.net/rlemon/EVWxr/1/) setup @ jsFiddle.net for you to play with.
+I have a [Demo](http://codepen.io/rlemon/full/KDujC) setup @ codepen.io for you to play with.
 
 Please report any bugs or features you would like added.
+
+Enjoy!
+
+---------
 
 *this project is a rewrite of https://github.com/Srirangan/notifer.js*
