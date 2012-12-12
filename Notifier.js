@@ -1,3 +1,7 @@
+/***********************
+* Notifier.js - Developed by rlemon (rob.lemon@gmail.com) https://github.com/rlemon/Notifier.js
+* Licensed under GNU GPL V3 https://github.com/rlemon/Notifier.js/blob/master/LICENSE
+***********************/
 var Notifier = (function() {
     var apply_styles = function(element, style_object) {
         for (var prop in style_object) {
