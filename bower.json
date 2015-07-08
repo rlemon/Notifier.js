@@ -1,7 +1,7 @@
 {
   "name": "Notifier.js",
   "main": "Notifier.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/rlemon/Notifier.js",
   "authors": [
     "Robert Lemon <rob.lemon@gmail.com>"
@@ -9,8 +9,7 @@
   "description": "Gnome type non-blocking notifications.",
   "moduleType": [
     "amd",
-    "globals",
-    "node"
+    "globals"
   ],
   "keywords": [
     "notifications",

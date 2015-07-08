@@ -8,7 +8,7 @@
         define([], factory);
     } else {
         // Browser globals
-        root.amdWeb = factory();
+        root.Notifier = factory();
     }
 }(this, function () {
 
