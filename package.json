@@ -1,0 +1,23 @@
+{
+  "name": "notifier.js",
+  "version": "0.0.2",
+  "description": "Gnome type non-blocking notifications",
+  "main": "Notifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauron85/Notifier.js.git"
+  },
+  "keywords": [
+    "notifications",
+    "gnome"
+  ],
+  "author": "@rlemon",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mauron85/Notifier.js/issues"
+  },
+  "homepage": "https://github.com/mauron85/Notifier.js#readme"
+}
